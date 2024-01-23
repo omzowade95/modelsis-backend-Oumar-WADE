@@ -35,6 +35,7 @@ Voici la démarche à suivre pour executer le projets
   - vérifier que le conteneur est lancé avec la commande docker ps
 - Cloner le projet via ce lien : https://github.com/omzowade95/modelsis-backend-Oumar-WADE.git
 - Ouvrir le projet avec Intellij Idea et attendre le build du projet
+- Creer la base de donnée testmodelsisdb
 - lancer le projet
 - Installer Postman 
 - Avant de lancer une requête s'authentifier comme suit avec les parametres suivants:
