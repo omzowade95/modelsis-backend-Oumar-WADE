@@ -2,14 +2,20 @@ package sn.modelsis.testBackend.gestion_product.service;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+<<<<<<< HEAD
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+=======
+>>>>>>> df479de (Implementation des fonctionnalités demandées)
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import sn.modelsis.testBackend.gestion_product.dto.ProductDTO;
+<<<<<<< HEAD
 import sn.modelsis.testBackend.gestion_product.dto.ProductTypeDTO;
+=======
+>>>>>>> df479de (Implementation des fonctionnalités demandées)
 import sn.modelsis.testBackend.gestion_product.entity.Product;
 import sn.modelsis.testBackend.gestion_product.entity.ProductType;
 import sn.modelsis.testBackend.gestion_product.repository.ProductRepository;
@@ -17,7 +23,10 @@ import sn.modelsis.testBackend.gestion_product.repository.ProductTypeRepository;
 import sn.modelsis.testBackend.gestion_product.service.impl.ProductServiceImpl;
 import sn.modelsis.testBackend.gestion_product.service.impl.ProductTypeServiceImpl;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
+=======
+>>>>>>> df479de (Implementation des fonctionnalités demandées)
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
