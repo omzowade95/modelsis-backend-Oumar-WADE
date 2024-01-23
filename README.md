@@ -21,7 +21,7 @@ Voici une description générale des composants intégrés dans le projet:
 - Lombok: Elle permet d'ajouter automatiquement des méthodes telles que les accesseurs (getters et setters), les constructeurs, les méthodes equals(), hashCode(), et d'autres, sans nécessiter une écriture explicite dans le code source.
 - Postgres: C'est un SGBDR open source et  puissant
 - Junit et Mockito: Des frameworks de test largement utilisés pour les tests unitaires et les tests d'intégration.
-- Docker: 
+- Docker: Technologie nous permettant de créer des conteneurs.
 
 ### 3. Execution du projet
 
@@ -29,7 +29,7 @@ Voici la démarche à suivre pour executer le projets
 
 - Installer JDK 17 , Intellij Idea et Docker
 - Ouvrir le terminal et vérifier que docker est bien installé en tapant la commande (docker -v)
-- taper las commandes suivantes : 
+- taper les commandes suivantes : 
   - docker pull postgres
   - docker run --name some-postgres -e POSTGRES_PASSWORD=testmodelsis -d postgres
   - vérifier que le conteneur est lancé avec la commande docker ps
@@ -37,7 +37,7 @@ Voici la démarche à suivre pour executer le projets
 - Ouvrir le projet avec Intellij Idea et attendre le build du projet
 - lancer le projet
 - Installer Postman 
-- Avant de lancer une requête s'authentifer comme suit avec les parametres suivants:
+- Avant de lancer une requête s'authentifier comme suit avec les parametres suivants:
 - Username: usermodelsis et password: password
 - ![img.png](img.png)
 - Tester les requetes suivantes:
