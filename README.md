@@ -43,5 +43,10 @@ Voici la démarche à suivre pour executer le projets
 - Tester les requetes suivantes:
   - GET http://localhost:9095/product // la liste de tous les produits
   - GET http://localhost:9095/productType // La liste de tous les types de produit
-
+- Pour ajouter ajouter un type de  produit:
+  - POST http://localhost:9095/productType
+  - ![img_1.png](img_1.png)
+- Pour ajouter ajouter un produit:
+  - POST http://localhost:9095/product
+  - ![img_2.png](img_2.png)
   
